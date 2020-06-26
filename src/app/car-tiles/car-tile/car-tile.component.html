@@ -1,0 +1,26 @@
+<div class="title"   [class.unavailable]="available === false">
+    <div class="name"> {{carName}}</div>
+    <table>
+        <tbody>
+            <tr *ngIf="carPrice">
+                <td>Cena za dobę:</td>    
+                <td>{{carPrice | currency:'EUR ':'&#8364;'}}</td>
+            </tr>
+            <tr *ngIf="numberOfSeats">
+                <td>Liczna miejsc: </td>
+                <td>{{numberOfSeats}}</td>
+            </tr>
+            <tr *ngIf="limit">
+                <td>Limit kilometrów:</td>
+                <td> {{limit}}</td>
+            </tr>
+                <!-- <img src="assets/car-1.jpg"   > -->
+        </tbody>
+    </table>
+    <div class="tile-action" (click)="onRentCar()">
+        <a *ngIf="available">Zarezerwuj!</a>
+        <a *ngIf="available===false">niedostepny</a>
+    </div>
+      <div [class.disabled]="available !== true"  class="button" >Wypożycz</div>
+
+</div>

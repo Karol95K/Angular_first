@@ -1,0 +1,15 @@
+span.info{
+    color: green;
+    background-color: rgb(192, 224, 192);
+    border: teal solid ;
+    border-width: 6px;
+    padding: 5px;
+    margin: 70px;
+    border-radius: 5px;
+    /* display: grid; */
+    column-width: 100px;
+    outline-style: dashed ;
+    outline-color: black;
+    outline-offset: 2px ;
+    outline-width: 1px;
+}

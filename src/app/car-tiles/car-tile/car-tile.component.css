@@ -1,0 +1,29 @@
+.name {
+    margin-top: 22px;
+    margin-left: 50px;
+}
+
+.title{
+    /* border: solid;
+    width: fit-content;
+    border-width: medium;
+    display: inline-grid; */
+    border: 1px gray solid;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+  .button {
+    background-color: lightskyblue;
+    border: 1px solid aliceblue;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button.disabled {
+    background-color: lightgray;
+    cursor: auto;
+  }

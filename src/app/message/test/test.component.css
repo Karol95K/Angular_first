@@ -1,0 +1,8 @@
+.enable{
+    color: cadetblue;
+}
+.enable.disable{
+    cursor: grab;
+    color: chartreuse;
+    background-color: gray;
+}

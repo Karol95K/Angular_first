@@ -1,0 +1,8 @@
+<p>car-tiles works!</p>
+
+<app-car-tile *ngFor="let car of carList" [id]=car.id [carName]="car.carName" [carPrice]="car.carPrice" [limit]="car.limit" [available]="car.available"></app-car-tile>
+
+<!-- <app-car-tile [carName]="'Fiat'" [carPrice]="222"  [numberOfSeats]="3" [available]="true"></app-car-tile>
+<app-car-tile [carName]="'Volvo'" [carPrice]="500"  [numberOfSeats]="4" [limit]="300" [available]="false"></app-car-tile>
+<app-car-tile [carName]="'Merc'" [carPrice]="900"   [limit]="400" [available]="false"></app-car-tile>
+<app-car-tile [carName]="'Porsche'" [carPrice]="1200"  [numberOfSeats]="2" [limit]="200" [available]="true"></app-car-tile> -->

@@ -1,0 +1,7 @@
+span{
+    color: blue;
+    text-transform:  capitalize;
+    text-decoration: overline  underline wavy ;
+    padding: 53px ;
+    font-size: large
+}
